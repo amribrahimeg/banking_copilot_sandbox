@@ -15,4 +15,4 @@ def total_balance(transactions: list[Transaction]) -> float:
     return sum(t.amount for t in transactions)
 
 
-# TODO (lab): add a `transactions_for(account_id)` helper and a test for it.
+# TODO (lab): add a `transactions_for(account_id, transactions)` helper and a test for it.
